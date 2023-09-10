@@ -5,19 +5,28 @@
     Author: Denise Case
     Date: January 15, 2023
 
+    Modified by: Beth Harvey
+    Date: September 10, 2023
+
 """
 
 import pika
 import sys
 import webbrowser
 
+# Configure logging
+from util_logger import setup_logger
+
+logger, logname = setup_logger(__file__)
+
+
 def offer_rabbitmq_admin_site():
     """Offer to open the RabbitMQ Admin website"""
     ans = input("Would you like to monitor RabbitMQ queues? y or n ")
-    print()
+    logger.info("Offer to monitor RabbitMQ queues.")
     if ans.lower() == "y":
         webbrowser.open_new("http://localhost:15672/#/queues")
-        print()
+        print(f"Answer is {ans}.")
 
 def send_message(host: str, queue_name: str, message: str):
     """
@@ -44,9 +53,9 @@ def send_message(host: str, queue_name: str, message: str):
         # every message passes through an exchange
         ch.basic_publish(exchange="", routing_key=queue_name, body=message)
         # print a message to the console for the user
-        print(f" [x] Sent {message}")
+        logger.info(f" [x] Sent {message}")
     except pika.exceptions.AMQPConnectionError as e:
-        print(f"Error: Connection to RabbitMQ server failed: {e}")
+        logger.error(f"Error: Connection to RabbitMQ server failed: {e}")
         sys.exit(1)
     finally:
         # close the connection to the server
@@ -63,6 +72,6 @@ if __name__ == "__main__":
     # if no arguments are provided, use the default message
     # use the join method to convert the list of arguments into a string
     # join by the space character inside the quotes
-    message = " ".join(sys.argv[1:]) or "Second task....."
+    message = " ".join(sys.argv[1:]) or "Fifth task....."
     # send the message to the queue
     send_message("localhost","task_queue2",message)

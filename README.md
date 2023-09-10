@@ -1,5 +1,18 @@
 # streaming-04-multiple-consumers
 
+* Beth Harvey
+* Streaming Data
+* Module 4
+* September 10, 2023
+
+### Requirements
+`python3 -m venv .venv`
+`source .venv/bin/activate`
+`python3 -m pip install pika`
+
+
+The goal of this project is to use RabbitMQ to send messages/tasks from a single producer to multiple consumers. This is based on the RabbitMQ tutorial linked in the "Read" section below.
+
 > Use RabbitMQ to distribute tasks to multiple workers
 
 One process will create task messages. Multiple worker processes will share the work. 
@@ -34,6 +47,7 @@ Explore the RabbitMQ website.
 1. Run listening_worker.py
 
 Will it terminate on its own? How do you know? 
+    No: When it starts it says "To exit press CTRL+C and the terminal does not return to an input line until you end the process.
 
 ## Ready for Work
 
@@ -46,8 +60,10 @@ Will it terminate on its own? How do you know?
 Follow the tutorial. 
 Add multiple tasks (e.g. First message, Second message, etc.)
 How are tasks distributed? 
+    They alternate between the two workers.
 Monitor the windows with at least two workers. 
 Which worker gets which tasks?
+    Worker 1 gets odd tasks, and worker 2 gets even tasks.
 
 
 ## Reference
@@ -58,3 +74,5 @@ Which worker gets which tasks?
 ## Screenshot
 
 See a running example with at least 3 concurrent process windows here:
+
+![One producer with multiple consumers](./multiple_processes_v2.png)
