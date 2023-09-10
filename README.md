@@ -5,13 +5,14 @@
 * Module 4
 * September 10, 2023
 
+The goal of this project is to use RabbitMQ to send messages/tasks from a single producer to multiple consumers. This is based on the RabbitMQ tutorial linked in the "Read" section below.
+
 ### Requirements
 `python3 -m venv .venv`
 `source .venv/bin/activate`
 `python3 -m pip install pika`
 
 
-The goal of this project is to use RabbitMQ to send messages/tasks from a single producer to multiple consumers. This is based on the RabbitMQ tutorial linked in the "Read" section below.
 
 > Use RabbitMQ to distribute tasks to multiple workers
 
@@ -65,6 +66,12 @@ Monitor the windows with at least two workers.
 Which worker gets which tasks?
     Worker 1 gets odd tasks, and worker 2 gets even tasks.
 
+# V3 Process
+1. I started by copying the V2 emitter and listening worker files from this repo and saving them as new V3 files.
+2. I used my bonus repo from Module 3 (https://github.com/bethharvey/streaming-03-bonus-harvey) as an example to read rows from a CSV to send as individual messages to a queue.
+3. The emitter file sleeps for 3 seconds between each task, no matter how long the task takes (determined by the number of periods in the string).
+4. The listening worker file sleeps for the duration of the task (seconds = number of periods in the message).
+
 
 ## Reference
 
@@ -75,4 +82,4 @@ Which worker gets which tasks?
 
 See a running example with at least 3 concurrent process windows here:
 
-![One producer with multiple consumers](./multiple_processes_v2.png)
+![One producer with multiple consumers](./multiple_processes_v3.png)

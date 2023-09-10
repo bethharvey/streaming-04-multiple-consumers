@@ -1,0 +1,46 @@
+2023-09-10 15:33:38,398.v3_listening_worker_harvey.INFO ==================================================
+2023-09-10 15:33:38,398.v3_listening_worker_harvey.INFO Today is 2023-09-10 at 03:33 PM
+2023-09-10 15:33:38,398.v3_listening_worker_harvey.INFO Running on: posix Darwin 22.5.0
+2023-09-10 15:33:38,398.v3_listening_worker_harvey.INFO Python version:  3.11.2
+2023-09-10 15:33:38,398.v3_listening_worker_harvey.INFO Python path: /Users/macbeth/Documents/Streaming Data/Module 4/streaming-04-multiple-consumers/.venv
+2023-09-10 15:33:38,398.v3_listening_worker_harvey.INFO Working dir: /Users/macbeth/Documents/Streaming Data/Module 4/streaming-04-multiple-consumers
+2023-09-10 15:33:38,398.v3_listening_worker_harvey.INFO ==================================================
+2023-09-10 15:33:38,408.v3_listening_worker_harvey.INFO  [*] Ready for work. To exit press CTRL+C
+2023-09-10 15:33:38,408.v3_listening_worker_harvey.INFO  [x] Received ['Second task....']
+2023-09-10 15:33:42,414.v3_listening_worker_harvey.INFO  [x] Done.
+2023-09-10 15:33:42,416.v3_listening_worker_harvey.INFO  [x] Received ['Forth task...']
+2023-09-10 15:33:45,422.v3_listening_worker_harvey.INFO  [x] Done.
+2023-09-10 15:33:45,424.v3_listening_worker_harvey.INFO  [x] Received ['Fifth task...']
+2023-09-10 15:33:48,427.v3_listening_worker_harvey.INFO  [x] Done.
+2023-09-10 15:33:48,429.v3_listening_worker_harvey.INFO  [x] Received ['First task....']
+2023-09-10 15:33:52,434.v3_listening_worker_harvey.INFO  [x] Done.
+2023-09-10 15:33:52,437.v3_listening_worker_harvey.INFO  [x] Received ['Second task....']22023-09-10 15:33:56,442.v3_listening_worker_harvey.INFO  [x] Done.
+2023-09-10 15:33:56,444.v3_listening_worker_harvey.INFO  [x] Received ['Forth task...']
+2023-09-10 15:33:59,446.v3_listening_worker_harvey.INFO  [x] Done.
+2023-09-10 15:33:59,447.v3_listening_worker_harvey.INFO  [x] Received ['Sixth task...']
+2023-09-10 15:34:02,450.v3_listening_worker_harvey.INFO  [x] Done.
+2023-09-10 15:34:02,452.v3_listening_worker_harvey.INFO  [x] Received ['Second task....']22023-09-10 15:34:06,458.v3_listening_worker_harvey.INFO  [x] Done.
+2023-09-10 15:34:06,460.v3_listening_worker_harvey.INFO  [x] Received ['Forth task...']
+2023-09-10 15:34:09,460.v3_listening_worker_harvey.INFO  [x] Done.
+2023-09-10 15:34:09,462.v3_listening_worker_harvey.INFO  [x] Received ['Sixth task...']
+2023-09-10 15:34:12,468.v3_listening_worker_harvey.INFO  [x] Done.
+2023-09-10 15:34:12,470.v3_listening_worker_harvey.INFO  [x] Received ['Second task....']22023-09-10 15:34:16,475.v3_listening_worker_harvey.INFO  [x] Done.
+2023-09-10 15:34:16,477.v3_listening_worker_harvey.INFO  [x] Received ['Forth task...']
+2023-09-10 15:34:19,483.v3_listening_worker_harvey.INFO  [x] Done.
+2023-09-10 15:34:19,485.v3_listening_worker_harvey.INFO  [x] Received ['Sixth task...']
+2023-09-10 15:34:22,486.v3_listening_worker_harvey.INFO  [x] Done.
+2023-09-10 15:34:22,488.v3_listening_worker_harvey.INFO  [x] Received ['Second task....']22023-09-10 15:34:26,493.v3_listening_worker_harvey.INFO  [x] Done.
+2023-09-10 15:34:26,495.v3_listening_worker_harvey.INFO  [x] Received ['Forth task...']
+2023-09-10 15:34:30,204.v3_listening_worker_harvey.INFO  [x] Done.
+2023-09-10 15:34:30,206.v3_listening_worker_harvey.INFO  [x] Received ['Sixth task...']
+2023-09-10 15:34:33,211.v3_listening_worker_harvey.INFO  [x] Done.
+2023-09-10 15:35:15,691.v3_listening_worker_harvey.INFO  [x] Received ['Second task....']22023-09-10 15:35:19,697.v3_listening_worker_harvey.INFO  [x] Done.
+2023-09-10 15:35:21,704.v3_listening_worker_harvey.INFO  [x] Received ['Forth task...']
+2023-09-10 15:35:24,704.v3_listening_worker_harvey.INFO  [x] Done.
+2023-09-10 15:35:27,716.v3_listening_worker_harvey.INFO  [x] Received ['Sixth task...']
+2023-09-10 15:35:30,720.v3_listening_worker_harvey.INFO  [x] Done.
+2023-09-10 15:35:33,729.v3_listening_worker_harvey.INFO  [x] Received ['Eighth task.........'202023-09-10 15:35:42,734.v3_listening_worker_harvey.INFO  [x] Done.
+23-09-10 15:35:36,734.v3_listening_worker_harvey.INFO  [x] Received ['Ninth task...']
+2023-09-10 15:35:39,740.v3_listening_worker_harvey.INFO  [x] Done.
+2023-09-10 15:35:39,741.v3_listening_worker_harvey.INFO  [x] Received ['Tenth task........']
+2023-09-10 15:35:47,744.v3_listening_worker_harvey.INFO  [x] Done.

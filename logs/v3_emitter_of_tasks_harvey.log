@@ -1,0 +1,17 @@
+2023-09-10 15:35:12,665.v3_emitter_of_tasks_harvey.INFO ==================================================
+2023-09-10 15:35:12,665.v3_emitter_of_tasks_harvey.INFO Today is 2023-09-10 at 03:35 PM
+2023-09-10 15:35:12,665.v3_emitter_of_tasks_harvey.INFO Running on: posix Darwin 22.5.0
+2023-09-10 15:35:12,665.v3_emitter_of_tasks_harvey.INFO Python version:  3.11.2
+2023-09-10 15:35:12,665.v3_emitter_of_tasks_harvey.INFO Python path: /Users/macbeth/Documents/Streaming Data/Module 4/streaming-04-multiple-consumers/.venv
+2023-09-10 15:35:12,665.v3_emitter_of_tasks_harvey.INFO Working dir: /Users/macbeth/Documents/Streaming Data/Module 4/streaming-04-multiple-consumers
+2023-09-10 15:35:12,665.v3_emitter_of_tasks_harvey.INFO ==================================================
+2023-09-10 15:35:12,684.v3_emitter_of_tasks_harvey.INFO  [x] Sent ['First task....']
+2023-09-10 15:35:15,690.v3_emitter_of_tasks_harvey.INFO  [x] Sent ['Second task....']
+2023-09-10 15:35:18,696.v3_emitter_of_tasks_harvey.INFO  [x] Sent ['Third task....']
+2023-09-10 15:35:21,703.v3_emitter_of_tasks_harvey.INFO  [x] Sent ['Forth task...']
+2023-09-10 15:35:24,709.v3_emitter_of_tasks_harvey.INFO  [x] Sent ['Fifth task...']
+2023-09-10 15:35:27,715.v3_emitter_of_tasks_harvey.INFO  [x] Sent ['Sixth task...']
+2023-09-10 15:35:30,721.v3_emitter_of_tasks_harvey.INFO  [x] Sent ['Seventh task......']
+2023-09-10 15:35:33,727.v3_emitter_of_tasks_harvey.INFO  [x] Sent ['Eighth task.........']
+2023-09-10 15:35:36,734.v3_emitter_of_tasks_harvey.INFO  [x] Sent ['Ninth task...']
+2023-09-10 15:35:39,740.v3_emitter_of_tasks_harvey.INFO  [x] Sent ['Tenth task........']
