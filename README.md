@@ -8,12 +8,14 @@
 The goal of this project is to use RabbitMQ to send messages/tasks from a single producer to multiple consumers. This is based on the RabbitMQ tutorial linked in the "Read" section below.
 
 ### Requirements
-`python3 -m venv .venv`
-`source .venv/bin/activate`
-`python3 -m pip install pika`
+* Virtual environment
+    * `python3 -m venv .venv`
+    * `source .venv/bin/activate`
+* Pika
+   *  `python3 -m pip install pika`
 
 
-
+## Project Instructions
 > Use RabbitMQ to distribute tasks to multiple workers
 
 One process will create task messages. Multiple worker processes will share the work. 

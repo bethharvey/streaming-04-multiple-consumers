@@ -40,7 +40,8 @@
 2023-09-10 15:35:27,716.v3_listening_worker_harvey.INFO  [x] Received ['Sixth task...']
 2023-09-10 15:35:30,720.v3_listening_worker_harvey.INFO  [x] Done.
 2023-09-10 15:35:33,729.v3_listening_worker_harvey.INFO  [x] Received ['Eighth task.........'202023-09-10 15:35:42,734.v3_listening_worker_harvey.INFO  [x] Done.
-23-09-10 15:35:36,734.v3_listening_worker_harvey.INFO  [x] Received ['Ninth task...']
-2023-09-10 15:35:39,740.v3_listening_worker_harvey.INFO  [x] Done.
+2023-09-10 15:42:44,630.v3_listening_worker_harvey.WARNING  User interrupted continuous listening process.
+40.v3_listening_worker_harvey.INFO  [x] Done.
 2023-09-10 15:35:39,741.v3_listening_worker_harvey.INFO  [x] Received ['Tenth task........']
 2023-09-10 15:35:47,744.v3_listening_worker_harvey.INFO  [x] Done.
+2023-09-10 15:42:42,697.v3_listening_worker_harvey.WARNING  User interrupted continuous listening process.
